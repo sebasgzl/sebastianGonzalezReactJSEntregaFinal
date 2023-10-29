@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap";
+
+.Controls {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.Number {
+    width: 40px;
+    height: 40px;
+    padding: auto;
+    padding-top: 10px;
+}
+
+.Button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid firebrick;
+    margin: auto;
+    background-color: firebrick;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    &:hover {
+
+        background-color: rgba(45, 43, 43, 0.9215686275);
+        color: white;
+    }
+
+    &:disabled {
+        color: black;
+        background-color: rgba(45, 43, 43, 0.9215686275);
+    }
+
+    &:disabled:hover {
+        background-color: rgba(45, 43, 43, 0.9215686275);
+        color: black;
+    }
+}
+
+.carritoButton {
+    width: 110px;
+    height: 30px;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+    &:hover {
+        background-color: firebrick;
+        color: black;
+    }
+
+    &:disabled {
+        color: black;
+        background-color: rgba(45, 43, 43, 0.9215686275);
+    }
+
+    &:disabled:hover {
+        background-color: rgba(45, 43, 43, 0.9215686275);
+        color: black;
+    }
+}
+
+.Counter {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

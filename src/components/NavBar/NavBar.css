@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap";
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 5%;
+  font-family: "Staatliches", cursive;
+  margin-bottom: 0;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: firebrick;
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: firebrick;
+  text-decoration-line: 1px solid white;
+}
+
+.active {
+  color: firebrick !important;
+}
+
+.active:hover {
+  color: whitesmoke;
+}
+
+.offcanvas-end{
+  margin-right: 10%;
+}
+
+.offcanvas {
+  background-color: rgb(31, 30, 30);
+  color: whitesmoke;
+  max-width: max-content;
+  margin-right: 0%;
+
+}
+
+.navbar-toggler {
+  margin-right: 1rem;
+}
+
+.offcanvas-title {
+  font-size: 2rem;
+}
+
+.background-color {
+  background-color: rgb(31, 30, 30);
+}
+
+.container-fluid {
+  background-color: rgb(31, 30, 30);
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-body-tertiary {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-expand-lg {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-top {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+  padding-left: 1rem;
+}
+
+.tituloNavbar {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.tituloNavbar:hover {
+  font-size: 55px;
+  margin-left: 15px;
+  text-decoration: none;
+}

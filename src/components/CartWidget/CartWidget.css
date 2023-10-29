@@ -1,0 +1,24 @@
+.cartDiv{
+    background-color: firebrick;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width:50px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    padding: auto;
+    color: whitesmoke
+}
+
+.cartDiv:hover{
+    color: whitesmoke;
+}
+
+.FontAwesomeIcon{
+    margin: 5px;
+}
+.custom-navlink{
+    margin: 5px;
+    text-decoration: none;
+}
